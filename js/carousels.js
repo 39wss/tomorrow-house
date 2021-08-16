@@ -14,13 +14,16 @@ const productCarousel = tns({
 
 const userGallery = tns({
   container: '.user-gallery .slider-list',
+  navContainer: '.user-gallery .thumbnail-list',
+  navAsThumbnails: true,
+  controls: false,
+  controlsContainer: '.user-gallery-controls',
   gutter: 4,
   edgePadding: 16,
   loop: false,
   arrowKeys: true,
   mouseDrag: true,
   preventScrollOnTouch: true,
-  controls: false,
   responsive: {
     768: {
       gutter: 6,
